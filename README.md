@@ -1,28 +1,7 @@
-This is a test
-
-```mermaid
-%%{init: {'flowchart': {'curve': 'linear', 'nodeSpacing': 10, 'rankSpacing': 50 }}}%%
-
-flowchart LR
-  X ---> A
-  X ---> B
-  Y ---> A
-  Z ---> A
-  A["<br><br><br>max (⚫, 🔴, 🔵)<br><br><br><br>"] --> B
-  B -->|Yes| C[Continue]
-  B -->|No| D[Stop]
-
-
-
-
-
-AAA["'string'"]:::plaintext ---> AA["input(⚪)"] ---> BB["int(⚪)"] ---> CC["X"]
-
-
-
-style A stroke:#a2f2a2
-linkStyle 0 stroke:red
-classDef plaintext fill:none,stroke:none;
-
-
-```
+[1](a.md)
+[2](a a.md)
+[3](<a a.md>)
+[4](a%20a.md)
+[5](<a%20a.md>)
+[6](a\ a.md)
+[7](<a\ a.md>)
